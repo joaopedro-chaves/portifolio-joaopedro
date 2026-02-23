@@ -38,16 +38,28 @@
         <nav class="nav">
           <ul class="nav-list">
             <li>
-              <a href="# Home"><span class="hash">#</span> Home</a>
+              <a href="# Home"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_home">Home</span></a
+              >
             </li>
             <li>
-              <a href="# Works"><span class="hash">#</span> Works</a>
+              <a href="# Works"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_works">Works</span></a
+              >
             </li>
             <li>
-              <a href="# About"><span class="hash">#</span> About-me</a>
+              <a href="# About"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_about">About-me</span></a
+              >
             </li>
             <li>
-              <a href="# Contacts"><span class="hash">#</span> Contacts</a>
+              <a href="# Contacts"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_contacts">Contacts</span></a
+              >
             </li>
             <li class="lang-switch">
               <span class="active">EN</span>
@@ -69,18 +81,26 @@
     <section id="home" class="hero">
       <div class="container hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">
+          <h1 class="hero-title" data-i18n="hero_title">
             João is a <span class="highlight_green">web designer</span> and
             <span class="highlight_orange">front-end</span> developer
           </h1>
-          <p class="hero-desc">
+          <p class="hero-desc" data-i18n="hero_desc">
             He crafts responsive websites where technologies meet creativity
           </p>
-          <a href="# Contacts" class="btn btn-primary">Contact me</a>
+          <a href="# Contacts" class="btn btn-primary" data-i18n="hero_btn"
+            >Contact me</a
+          >
           <div class="social-icons-hero">
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-figma"></i></a>
-            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://github.com/joaopedro" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://figma.com/@joaopedro" target="_blank"
+              ><i class="fa-brands fa-figma"></i
+            ></a>
+            <a href="https://discord.com/users/joaopedro" target="_blank"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
           </div>
         </div>
         <div class="hero-image">
@@ -92,23 +112,27 @@
       </div>
     </section>
 
-    <!-- Quote Section (Opcional)
+    <!-- Quote Section (Opcional) -->
     <section class="quote-section">
-        <div class="container">
-            <div class="quote-box">
-                <p class="quote-text">With great power comes great electricity bill</p>
-                <span class="quote-author">- Dr. Who</span>
-            </div>
+      <div class="container">
+        <div class="quote-box">
+          <p class="quote-text" data-i18n="quote_text">
+            With great power comes great electricity bill
+            <span class="quote-author" data-i18n="quote_author">- Dr. Who</span>
+          </p>
         </div>
-    </section> -->
+      </div>
+    </section>
 
     <!-- Projects Section -->
     <section id="works" class="projects">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title"><span class="hash">#</span> Projects</h2>
+          <h2 class="section-title">
+            <span class="hash">#</span>
+            <span data-i18n="section_projects">Projects</span>
+          </h2>
           <div class="line"></div>
-          <a href="#" class="view-all">View all</a>
         </div>
 
         <div class="projects-grid">
@@ -117,18 +141,28 @@
             <div class="card-img">
               <img src="./media/project1.png" alt="Project 1" />
             </div>
-            <div class="card-tech">
-              <span>HTML</span>
-              <span>SCSS</span>
-              <span>Python</span>
-              <span>Flask</span>
-            </div>
             <div class="card-body">
               <h3 class="card-title">ChertNodes</h3>
-              <p class="card-desc">Minecraft servers hosting</p>
+              <p class="card-desc" data-i18n="project1_desc">
+                Minecraft servers hosting
+              </p>
+              <div class="card-tag-tech">
+                <span class="frontend">HTML</span>
+                <span class="backend">SCSS</span>
+                <span class="fullstack">Python</span>
+                <span class="database">Flask</span>
+              </div>
               <div class="card-footer">
-                <a href="#" class="btn btn-small btn-primary">Live</a>
-                <a href="#" class="btn btn-small btn-primary">Github</a>
+                <a href="#_" class="btn btn-primary" data-i18n="btn_live"
+                  >Live</a
+                >
+                <a
+                  href="https://github.com/joaopedro/chertnodes"
+                  target="_blank"
+                  class="btn btn-primary"
+                  data-i18n="btn_github"
+                  >Github</a
+                >
               </div>
             </div>
           </div>
@@ -138,17 +172,24 @@
             <div class="card-img">
               <img src="./media/project2.png" alt="Project 2" />
             </div>
-            <div class="card-tech">
-              <span>React</span>
-              <span>Express</span>
-              <span>Discord.js</span>
-            </div>
             <div class="card-body">
               <h3 class="card-title">ProtectX</h3>
-              <p class="card-desc">Discord anti-crash bot</p>
+              <p class="card-desc" data-i18n="project2_desc">
+                Discord anti-crash bot
+              </p>
+              <div class="card-tag-tech">
+                <span class="frontend">React</span>
+                <span class="backend">Express</span>
+                <span class="tools">Discord.js</span>
+              </div>
               <div class="card-footer">
-                <a href="#" class="btn btn-small btn-primary">Live</a>
-                <a href="#" class="btn btn-small btn-primary">Github</a>
+                <a href="#_" class="btn btn-primary">Live</a>
+                <a
+                  href="https://github.com/joaopedro/protectx"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Github</a
+                >
               </div>
             </div>
           </div>
@@ -158,21 +199,32 @@
             <div class="card-img">
               <img src="./media/project3.png" alt="Project 3" />
             </div>
-            <div class="card-tech">
-              <span>CSS</span>
-              <span>Express</span>
-              <span>Node.js</span>
-            </div>
             <div class="card-body">
               <h3 class="card-title">Kahoot Answers Viewer</h3>
-              <p class="card-desc">Get answers to your kahoot quiz</p>
+              <p class="card-desc" data-i18n="project3_desc">
+                Get answers to your kahoot quiz
+              </p>
+              <div class="card-tag-tech">
+                <span class="frontend">CSS</span>
+                <span class="backend">Express</span>
+                <span class="tools">Node.js</span>
+                <span class="ai">AI</span>
+              </div>
               <div class="card-footer">
-                <a href="#" class="btn btn-small btn-primary">Live</a>
-                <a href="#" class="btn btn-small btn-primary">Github</a>
+                <a href="#_" class="btn btn-primary">Live</a>
+                <a
+                  href="https://github.com/joaopedro/kahoot-viewer"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Github</a
+                >
               </div>
             </div>
           </div>
         </div>
+        <a href="#_" class="btn btn-primary btn-large" data-i18n="btn_view_all"
+          >View all</a
+        >
       </div>
     </section>
 
@@ -180,7 +232,10 @@
     <section class="skills">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title"><span class="hash">#</span> Skills</h2>
+          <h2 class="section-title">
+            <span class="hash">#</span>
+            <span data-i18n="section_skills">Skills</span>
+          </h2>
           <div class="line"></div>
         </div>
 
@@ -188,20 +243,22 @@
           <div class="skills-grid">
             <div class="skill-column">
               <div class="skill-category">
-                <h3 class="skill-title-lang">Languages</h3>
+                <h3 class="skill-title-lang" data-i18n="skill_title_lang">
+                  Languages
+                </h3>
                 <ul>
-                  <a class="skill-list">TypeScript</a>
-                  <a class="skill-list">Lua</a>
-                  <a class="skill-list">Python</a>
-                  <a class="skill-list">JavaScript</a>
+                  <li class="skill-list">TypeScript</li>
+                  <li class="skill-list">Lua</li>
+                  <li class="skill-list">Python</li>
+                  <li class="skill-list">JavaScript</li>
                 </ul>
               </div>
               <div class="skill-category">
                 <h3 class="skill-title-backend">Backend</h3>
                 <ul>
-                  <a class="skill-list">Node.js</a>
-                  <a class="skill-list">Express</a>
-                  <a class="skill-list">REST API</a>
+                  <li class="skill-list">Node.js</li>
+                  <li class="skill-list">Express</li>
+                  <li class="skill-list">REST API</li>
                 </ul>
               </div>
             </div>
@@ -209,20 +266,20 @@
               <div class="skill-category">
                 <h3 class="skill-title-db">Databases</h3>
                 <ul>
-                  <a class="skill-list">SQLite</a>
-                  <a class="skill-list">PostgreSQL</a>
-                  <a class="skill-list">Mongo</a>
+                  <li class="skill-list">SQLite</li>
+                  <li class="skill-list">PostgreSQL</li>
+                  <li class="skill-list">Mongo</li>
                 </ul>
               </div>
               <div class="skill-category">
                 <h3 class="skill-title-web">Web</h3>
                 <ul>
-                  <a class="skill-list">HTML</a>
-                  <a class="skill-list">CSS</a>
-                  <a class="skill-list">EJS</a>
-                  <a class="skill-list">SCSS</a>
-                  <a class="skill-list">REST</a>
-                  <a class="skill-list">Jinja</a>
+                  <li class="skill-list">HTML</li>
+                  <li class="skill-list">CSS</li>
+                  <li class="skill-list">EJS</li>
+                  <li class="skill-list">SCSS</li>
+                  <li class="skill-list">REST</li>
+                  <li class="skill-list">Jinja</li>
                 </ul>
               </div>
             </div>
@@ -230,20 +287,20 @@
               <div class="skill-category">
                 <h3 class="skill-title-tools">Tools</h3>
                 <ul>
-                  <a class="skill-list">VSCode</a>
-                  <a class="skill-list">Neovim</a>
-                  <a class="skill-list">Linux</a>
-                  <a class="skill-list">Figma</a>
-                  <a class="skill-list">Git</a>
-                  <a class="skill-list">Font Awesome</a>
+                  <li class="skill-list">VSCode</li>
+                  <li class="skill-list">Neovim</li>
+                  <li class="skill-list">Linux</li>
+                  <li class="skill-list">Figma</li>
+                  <li class="skill-list">Git</li>
+                  <li class="skill-list">Font Awesome</li>
                 </ul>
               </div>
               <div class="skill-category">
                 <h3 class="skill-title-frontend">Frontend</h3>
                 <ul>
-                  <a class="skill-list">React</a>
-                  <a class="skill-list">Vue</a>
-                  <a class="skill-list">Tailwind</a>
+                  <li class="skill-list">React</li>
+                  <li class="skill-list">Vue</li>
+                  <li class="skill-list">Tailwind</li>
                 </ul>
               </div>
             </div>
@@ -251,20 +308,20 @@
               <div class="skill-category">
                 <h3 class="skill-title-fws">Frameworks</h3>
                 <ul>
-                  <a class="skill-list">React</a>
-                  <a class="skill-list">Vue</a>
-                  <a class="skill-list">Disnake</a>
-                  <a class="skill-list">Discord.js</a>
-                  <a class="skill-list">Flask</a>
-                  <a class="skill-list">Express</a>
+                  <li class="skill-list">React</li>
+                  <li class="skill-list">Vue</li>
+                  <li class="skill-list">Disnake</li>
+                  <li class="skill-list">Discord.js</li>
+                  <li class="skill-list">Flask</li>
+                  <li class="skill-list">Express</li>
                 </ul>
               </div>
               <div class="skill-category">
                 <h3 class="skill-title-other">Other</h3>
                 <ul>
-                  <a class="skill-list">Docker</a>
-                  <a class="skill-list">REST API</a>
-                  <a class="skill-list">WebSockets</a>
+                  <li class="skill-list">Docker</li>
+                  <li class="skill-list">REST API</li>
+                  <li class="skill-list">WebSockets</li>
                 </ul>
               </div>
             </div>
@@ -274,7 +331,7 @@
     </section>
 
     <!-- Markdown Section (Status) -->
-    <section id="markdown" class="markdown">
+    <section id="markdown-viewer" class="markdown">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title"><span class="hash">#</span> Status</h2>
@@ -288,25 +345,30 @@
     <section id="about" class="about">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title"><span class="hash">#</span> About-me</h2>
+          <h2 class="section-title">
+            <span class="hash">#</span>
+            <span data-i18n="section_about">About-me</span>
+          </h2>
           <div class="line"></div>
         </div>
 
         <div class="about-content">
           <div class="about-text">
-            <h3>Hello, i'm João Pedro!</h3>
-            <p>
+            <h3 data-i18n="about_title">Hello, i'm João Pedro!</h3>
+            <p data-i18n="about_p1">
               I'm a self-taught front-end developer based in Brazil. I can
               develop responsive websites from scratch and raise them into
               modern user-friendly web experiences.
             </p>
-            <p>
+            <p data-i18n="about_p2">
               Transforming my creativity and knowledge into a websites has been
               my passion for over a year. I have been helping various clients to
               establish their presence online. I always strive to learn about
               the newest technologies and frameworks.
             </p>
-            <a href="#" class="btn btn-primary">Read more</a>
+            <a href="#_" class="btn btn-primary" data-i18n="btn_read_more"
+              >Read more</a
+            >
           </div>
           <div class="about-image">
             <div class="img-placeholder">
@@ -322,13 +384,15 @@
       <div class="container contacts-container">
         <div class="contacts-left">
           <div class="lets-work-header">
-            <span class="lets-text">LET'S</span>
+            <span class="lets-text" data-i18n="contact_lets">LET'S</span>
             <div class="arrow-badge">
               <i class="fa-solid fa-arrow-up"></i>
             </div>
           </div>
-          <h2 class="work-together-text">WORK TOGETHER</h2>
-          <p class="contacts-desc">
+          <h2 class="work-together-text" data-i18n="contact_work">
+            WORK TOGETHER
+          </h2>
+          <p class="contacts-desc" data-i18n="contact_desc">
             I'm interested in freelance opportunities. However, if you have
             other request or question, don't hesitate to contact me
           </p>
@@ -336,25 +400,29 @@
 
         <div class="contacts-right">
           <div class="contacts-card">
-            <h3 class="card-title">Contact Information</h3>
+            <h3 class="card-title" data-i18n="contact_info_title">
+              Contact Information
+            </h3>
             <div class="contact-info-grid">
               <div class="info-item">
-                <p class="info-label">Email</p>
+                <p class="info-label" data-i18n="contact_email">Email</p>
                 <p class="info-value">damienbraun@gmail.com</p>
               </div>
               <div class="info-item">
-                <p class="info-label">Phone Number</p>
+                <p class="info-label" data-i18n="contact_phone">Phone Number</p>
                 <p class="info-value">+00 000000000</p>
               </div>
             </div>
 
             <div class="card-bottom">
               <div class="card-actions">
-                <a href="#" class="btn btn-primary"
-                  ><i class="fa-solid fa-paper-plane"></i> Contact Me</a
+                <a href="mailto:damienbraun@gmail.com" class="btn btn-primary"
+                  ><i class="fa-solid fa-paper-plane"></i>
+                  <span data-i18n="btn_contact_me">Contact Me</span></a
                 >
-                <a href="#" class="btn btn-primary"
-                  ><i class="fa-solid fa-download"></i> Download CV</a
+                <a href="#_" class="btn btn-primary"
+                  ><i class="fa-solid fa-download"></i>
+                  <span data-i18n="btn_download_cv">Download CV</span></a
                 >
               </div>
             </div>
@@ -368,17 +436,24 @@
       <div class="footer-separator"></div>
       <div class="container footer-container">
         <div class="footer-socials">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-product-hunt"></i></a>
-          <a href="#"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://github.com/joaopedro" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="#_" target="_blank"
+            ><i class="fa-brands fa-product-hunt"></i
+          ></a>
+          <a href="https://discord.com/users/joaopedro" target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
         </div>
         <div class="footer-copyright">
-          <p>Made by &lt;nome&gt; with Figma, HTML/CSS/JS</p>
+          <p>Made by João Pedro with Figma, HTML/CSS/JS</p>
         </div>
       </div>
     </footer>
 
-    <script src="script/app.js"></script>
+    <script src="script/translations.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script/app.js"></script>
   </body>
 </html>

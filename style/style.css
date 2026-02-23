@@ -116,6 +116,14 @@ img {
   font-size: 0.9rem;
 }
 
+.btn-large {
+  display: block;
+  width: fit-content;
+  margin: 2rem auto 0;
+  padding: 8px 200px;
+  font-size: 1rem;
+}
+
 .section-header {
   font-family: var(--font-main);
   display: flex;
@@ -240,38 +248,30 @@ img {
 /* Quote Section */
 .quote-section {
   margin-top: 6rem;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 12rem;
 }
 
 .quote-box {
-  border: 1px solid var(--gray);
-  border-radius: 8px;
-  padding: 2rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
   position: relative;
-  display: inline-block;
+  width: fit-content;
+  border-left: 4px solid var(--green);
 }
 
 .quote-text {
   font-family: var(--font-text);
   font-size: 1.5rem;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .quote-author {
   font-family: var(--font-text);
-  position: absolute;
-  bottom: -1px;
-  right: -1px;
-  border: 1px solid var(--gray);
-  border-top: none; /* Looks like it hangs off the box */
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  background-color: var(
-    --bg
-  ); /* To cover the line if needed, though border logic is simpler */
-  transform: translateY(100%);
-  right: 0;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 /* Projects Section */
@@ -291,18 +291,48 @@ img {
   height: 200px;
   object-fit: cover;
   border-bottom: 1px solid var(--gray);
-  background-color: #333; /* Placeholder color */
+  background-color: var(--bg); /* Placeholder color */
+  border-radius: 8px 8px 0 0;
 }
 
-.card-tech {
-  padding: 0.5rem;
-  border-bottom: 1px solid var(--gray);
-  color: var(--gray);
-  font-size: 0.9rem;
+.card-tag-tech {
+  font-size: 1rem;
   font-family: var(--font-text);
+  font-weight: 500;
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.card-tag-tech span {
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  padding: 0.2rem 0.6rem;
+  color: var(--bg);
+}
+
+.card-tag-tech span.frontend {
+  background-color: var(--pink);
+}
+.card-tag-tech span.backend {
+  background-color: var(--red);
+}
+.card-tag-tech span.fullstack {
+  background-color: var(--blue);
+}
+.card-tag-tech span.database {
+  background-color: var(--green);
+}
+.card-tag-tech span.tools {
+  background-color: var(--orange);
+}
+.card-tag-tech span.ai {
+  background-color: var(--yellow);
+}
+.card-tag-tech span.other {
+  background-color: var(--purple);
 }
 
 .card-body {
@@ -695,7 +725,6 @@ img {
   }
 
   .skills-grid {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
