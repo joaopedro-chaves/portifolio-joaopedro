@@ -9,14 +9,20 @@
   --text: #a1a9ba;
   --white: #ffffff;
   --gray: #abb2bf;
-  --green: #8ec07c;
-  --blue: #64b5f6;
-  --purple: #c778dd;
-  --red: #f57c7e;
-  --orange: #fdb35a;
-  --pink: #fe97c5;
-  --yellow: #f5f569;
-  --cyan: #73e8f5;
+
+  /* Tags Colors */
+  --programming: #7EE787;
+  --frontend: #6CB6FF;
+  --ia: #C674F5;
+  --devops: #F67A7C;
+  --innovation: #FFA657;
+  --design: #F892C7;
+  --mobile: #F5F569;
+  --datascience: #9CD33B;
+  --tools: #73E8F5;
+  --other: #abb2bf;
+  --backend: #F67A7C;
+
   --font-main: "Lexend", sans-serif;
   --font-text: "Roboto mono", monospace;
 }
@@ -58,27 +64,37 @@ img {
 }
 
 .hash {
-  color: var(--green);
+  color: var(--programming);
 }
 
 .highlight_green {
-  color: var(--green);
+  color: var(--programming);
 }
 .highlight_blue {
-  color: var(--blue);
+  color: var(--frontend);
 }
 .highlight_purple {
-  color: var(--purple);
+  color: var(--ia);
 }
 .highlight_red {
-  color: var(--red);
+  color: var(--devops);
 }
 .highlight_yellow {
-  color: var(--yellow);
+  color: var(--mobile);
 }
 .highlight_orange {
-  color: var(--orange);
+  color: var(--innovation);
 }
+.highlight_pink {
+  color: var(--design);
+}
+.highlight_yellow {
+  color: var(--mobile);
+}
+.highlight_cyan {
+  color: var(--tools);
+}
+
 
 .line {
   height: 1px;
@@ -92,7 +108,7 @@ img {
   border-radius: 8px;
   display: inline-block;
   padding: 8px 16px;
-  border: 1px solid var(--green);
+  border: 1px solid var(--programming);
   color: var(--white);
   background-color: var(--button-bg);
   font-weight: 500;
@@ -245,6 +261,10 @@ img {
   max-width: 400px;
 }
 
+.hero-image img {
+  border-radius: 24px;
+}
+
 /* Quote Section */
 .quote-section {
   margin-top: 6rem;
@@ -256,7 +276,7 @@ img {
   padding: 1rem 2rem;
   position: relative;
   width: fit-content;
-  border-left: 4px solid var(--green);
+  border-left: 4px solid var(--programming);
 }
 
 .quote-text {
@@ -314,25 +334,34 @@ img {
 }
 
 .card-tag-tech span.frontend {
-  background-color: var(--pink);
+  background-color: var(--frontend);
 }
 .card-tag-tech span.backend {
-  background-color: var(--red);
+  background-color: var(--backend);
 }
-.card-tag-tech span.fullstack {
-  background-color: var(--blue);
-}
-.card-tag-tech span.database {
-  background-color: var(--green);
+.card-tag-tech span.datascience {
+  background-color: var(--datascience);
 }
 .card-tag-tech span.tools {
-  background-color: var(--orange);
+  background-color: var(--tools);
 }
 .card-tag-tech span.ai {
-  background-color: var(--yellow);
+  background-color: var(--ai);
+}
+.card-tag-tech span.design {
+  background-color: var(--design);
+}
+.card-tag-tech span.mobile {
+  background-color: var(--mobile);
+}
+.card-tag-tech span.programming {
+  background-color: var(--programming);
+}
+.card-tag-tech span.innovation {
+  background-color: var(--innovation);
 }
 .card-tag-tech span.other {
-  background-color: var(--purple);
+  background-color: var(--other);
 }
 
 .card-body {
@@ -365,7 +394,7 @@ img {
 }
 
 .skills-grid {
-  flex: 2;
+  flex: 3;
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
@@ -400,29 +429,38 @@ img {
   border-radius: 8px 8px 0 0;
 }
 
-.skill-title-lang {
-  background-color: var(--blue);
+.skill-title-programming {
+  background-color: var(--programming);
 }
-.skill-title-db {
-  background-color: var(--green);
+.skill-title-datascience {
+  background-color: var(--datascience);
 }
-.skill-title-web {
-  background-color: var(--red);
+.skill-title-devops {
+  background-color: var(--devops);
 }
 .skill-title-tools {
-  background-color: var(--orange);
+  background-color: var(--tools);
 }
-.skill-title-fws {
-  background-color: var(--purple);
+.skill-title-ai {
+  background-color: var(--ia);
 }
 .skill-title-other {
-  background-color: var(--pink);
+  background-color: var(--other);
 }
 .skill-title-backend {
-  background-color: var(--yellow);
+  background-color: var(--backend);
 }
 .skill-title-frontend {
-  background-color: var(--cyan);
+  background-color: var(--frontend);
+}
+.skill-title-mobile {
+  background-color: var(--mobile);
+}
+.skill-title-design {
+  background-color: var(--design);
+}
+.skill-title-innovation {
+  background-color: var(--innovation);
 }
 
 .skill-category ul {
@@ -471,6 +509,10 @@ img {
   position: relative;
 }
 
+.about-image img {
+  border-radius: 24px;
+}
+
 .about-image::after {
   content: "";
   position: absolute;
@@ -478,8 +520,8 @@ img {
   right: -20px;
   width: 100%;
   height: 100%;
-  border: 1px solid var(--green);
-  border-radius: 8px;
+  border: 1px solid var(--programming);
+  border-radius: 24px;
   z-index: -1;
 }
 
@@ -655,7 +697,7 @@ img {
 }
 
 .social-icons-hero a:hover {
-  color: var(--green);
+  color: var(--programming);
   transform: translateY(-5px);
 }
 
@@ -844,7 +886,7 @@ img {
 }
 
 .markdown-content a {
-  color: var(--green);
+  color: var(--programming);
   text-decoration: none;
 }
 
@@ -863,7 +905,7 @@ img {
 }
 
 .markdown-content blockquote {
-  border-left: 4px solid var(--green);
+  border-left: 4px solid var(--programming);
   padding-left: 1rem;
   margin: 1rem 0;
   color: var(--gray);
