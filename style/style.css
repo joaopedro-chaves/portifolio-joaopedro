@@ -88,12 +88,10 @@ img {
 .highlight_pink {
   color: var(--design);
 }
-.highlight_yellow {
-  color: var(--mobile);
-}
 .highlight_cyan {
   color: var(--tools);
 }
+
 
 
 .line {
@@ -597,7 +595,7 @@ img {
 
 .contacts-card {
   background-color: transparent;
-  border: 1px solid #2f333d;
+  border: 1px solid var(--border);
   border-radius: 40px;
   padding: 3.5rem;
   width: 100%;
@@ -959,4 +957,63 @@ img {
   border: none;
   border-top: 1px solid var(--gray);
   margin: 2rem 0;
+}
+
+
+/* Working On section */
+.working-on {
+  border: 1px solid var(--border);
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  background-color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.working-on-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.working-icon {
+  color: var(--programming);
+  font-size: 0.8rem;
+}
+
+.working-on-title {
+  color: var(--gray);
+  font-family: var(--font-text);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Fun Facts section */
+.funfacts {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.funfacts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.funfact-item {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--font-text);
+  color: var(--gray);
+}
+
+.funfact-item i {
+  color: var(--programming);
 }

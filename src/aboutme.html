@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me | João Pedro</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <span><a href="../index.html">João Pedro</a></span>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="../index.html"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_home">Home</span></a
+              >
+            </li>
+            <li>
+              <a href="works.html"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_works">Works</span></a
+              >
+            </li>
+            <li>
+              <a href="aboutme.html" class="active"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_about">About-me</span></a
+              >
+            </li>
+            <li>
+              <a href="contacts.html"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_contacts">Contacts</span></a
+              >
+            </li>
+            <li class="lang-switch">
+              <span class="active">EN</span>
+              <span class="divider">/</span>
+              <span>BR</span>
+            </li>
+          </ul>
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section-header">
+        <h2 class="section-title">
+          <span class="hash">#</span>
+          <span data-i18n="section_about">About-me</span>
+        </h2>
+      </section>
+
+      <!-- About Me Content -->
+      <section class="about">
+        <div class="about-content">
+          <div class="about-text">
+            <h3 data-i18n="about_title">Hello, i'm João Pedro!</h3>
+            <p data-i18n="about_p1">
+              I'm a self-taught front-end developer based in Brazil. I can
+              develop responsive websites from scratch and raise them into
+              modern user-friendly web experiences.
+            </p>
+            <p data-i18n="about_p2">
+              Transforming my creativity and knowledge into a websites has been
+              my passion for over a year. I have been helping various clients to
+              establish their presence online. I always strive to learn about
+              the newest technologies and frameworks.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="img-placeholder">
+              <img src="../media/img/about-img.png" alt="About Me" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section (Simplified from index) -->
+      <section class="skills" style="margin-top: 4rem;">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="hash">#</span>
+            <span data-i18n="section_skills">Skills</span>
+          </h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-grid">
+            <div class="skill-column">
+              <div class="skill-category">
+                <h3 class="skill-title-programming" data-i18n="skill_title_programming">Languages</h3>
+                <ul>
+                  <li class="skill-list">TypeScript</li>
+                  <li class="skill-list">Lua</li>
+                  <li class="skill-list">Python</li>
+                  <li class="skill-list">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill-column">
+              <div class="skill-category">
+                <h3 class="skill-title-frontend">Frontend</h3>
+                <ul>
+                  <li class="skill-list">HTML</li>
+                  <li class="skill-list">CSS</li>
+                  <li class="skill-list">React</li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill-column">
+              <div class="skill-category">
+                <h3 class="skill-title-tools" data-i18n="skill_title_tools">Tools</h3>
+                <ul>
+                  <li class="skill-list">VSCode</li>
+                  <li class="skill-list">Git</li>
+                  <li class="skill-list">Figma</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fun facts -->
+      <section class="funfacts">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="hash">#</span>
+            <span data-i18n="section_funfacts">Fun-facts</span>
+          </h2>
+          <div class="line"></div>
+        </div>
+        <div class="funfacts-container">
+          <div class="funfact-item">
+            <i class="fa-solid fa-user"></i>
+            <span data-i18n="funfact_users">100+ Users</span>
+          </div>
+          <div class="funfact-item">
+            <i class="fa-solid fa-code"></i>
+            <span data-i18n="funfact_code">100+ Lines of Code</span>
+          </div>
+          <div class="funfact-item">
+            <i class="fa-solid fa-star"></i>
+            <span data-i18n="funfact_star">100+ Stars</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-separator"></div>
+      <div class="container footer-container">
+        <div class="footer-socials">
+          <a href="https://github.com/joaopedro" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://discord.com/users/joaopedro" target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+        </div>
+        <div class="footer-copyright">
+          <p>Made by João Pedro with Figma, HTML/CSS/JS</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../script/translations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="../script/app.js"></script>
+  </body>
+</html>

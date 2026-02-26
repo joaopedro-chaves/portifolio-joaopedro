@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Works | João Pedro</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <span><a href="../index.html">João Pedro</a></span>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="../index.html"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_home">Home</span></a
+              >
+            </li>
+            <li>
+              <a href="works.html" class="active"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_works">Works</span></a
+              >
+            </li>
+            <li>
+              <a href="aboutme.html"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_about">About-me</span></a
+              >
+            </li>
+            <li>
+              <a href="contacts.html"
+                ><span class="hash">#</span>
+                <span data-i18n="nav_contacts">Contacts</span></a
+              >
+            </li>
+            <li class="lang-switch">
+              <span class="active">EN</span>
+              <span class="divider">/</span>
+              <span>BR</span>
+            </li>
+          </ul>
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+
+      <!-- Projects Section -->
+      <section class="projects">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="hash">#</span>
+            <span data-i18n="section_projects">Projects</span>
+          </h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="card-img">
+              <img src="../media/img/project1.png" alt="Project 1" />
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">ChertNodes</h3>
+              <p class="card-desc" data-i18n="project1_desc">
+                Minecraft servers hosting
+              </p>
+              <div class="card-tag-tech">
+                <span class="frontend">HTML</span>
+                <span class="frontend">SCSS</span>
+                <span class="programming">Python</span>
+                <span class="programming">Flask</span>
+              </div>
+              <div class="card-footer">
+                <a href="#_" class="btn btn-primary" data-i18n="btn_live">Live</a>
+                <a href="https://github.com/joaopedro/chertnodes" target="_blank" class="btn btn-primary" data-i18n="btn_github">Github</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="card-img">
+              <img src="../media/img/project2.png" alt="Project 2" />
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">ProtectX</h3>
+              <p class="card-desc" data-i18n="project2_desc">
+                Discord anti-crash bot
+              </p>
+              <div class="card-tag-tech">
+                <span class="frontend">React</span>
+                <span class="backend">Express</span>
+                <span class="tools">Discord.js</span>
+              </div>
+              <div class="card-footer">
+                <a href="#_" class="btn btn-primary">Live</a>
+                <a href="https://github.com/joaopedro/protectx" target="_blank" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="card-img">
+              <img src="../media/img/project3.png" alt="Project 3" />
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Kahoot Answers Viewer</h3>
+              <p class="card-desc" data-i18n="project3_desc">
+                Get answers to your kahoot quiz
+              </p>
+              <div class="card-tag-tech">
+                <span class="frontend">CSS</span>
+                <span class="backend">Express</span>
+                <span class="front-end">Node.js</span>
+              </div>
+              <div class="card-footer">
+                <a href="#_" class="btn btn-primary">Live</a>
+                <a href="https://github.com/joaopedro/kahoot-viewer" target="_blank" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-separator"></div>
+      <div class="container footer-container">
+        <div class="footer-socials">
+          <a href="https://github.com/joaopedro" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://discord.com/users/joaopedro" target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+        </div>
+        <div class="footer-copyright">
+          <p>Made by João Pedro with Figma, HTML/CSS/JS</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../script/translations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="../script/app.js"></script>
+  </body>
+</html>

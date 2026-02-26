@@ -23,6 +23,7 @@ const translations = {
     skill_title_innovation: "Innovation",
     skill_title_other: "Other",
     skill_title_ai: "AI",
+    section_funfacts: "Fun-facts",
     section_about: "About-me",
     about_title: "Hello, i'm João Pedro!",
     about_p1: "I'm a self-taught front-end developer based in Brazil. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.",
@@ -35,7 +36,11 @@ const translations = {
     contact_email: "Email",
     contact_phone: "Phone Number",
     btn_contact_me: "Contact Me",
-    btn_download_cv: "Download CV"
+    btn_download_cv: "Download CV",
+    hero_working_on: `Currently working on <span class="highlight_blue">Portfolio</span>`,
+    funfact_users: "100+ Users",
+    funfact_code: "100+ Lines of Code",
+    funfact_star: "100+ Stars"
   },
   br: {
     nav_home: "Início",
@@ -61,6 +66,7 @@ const translations = {
     skill_title_innovation: "Inovação e gestão",
     skill_title_other: "Outros",
     skill_title_ai: "Inteligência Artificial",
+    section_funfacts: "Fatos Curiosos",
     section_about: "Sobre mim",
     about_title: "Olá, eu sou o João Pedro!",
     about_p1: "Sou um desenvolvedor front-end autodidata residente no Brasil. Posso desenvolver sites responsivos do zero e elevar a experiência do usuário para um nível moderno.",
@@ -73,6 +79,10 @@ const translations = {
     contact_email: "E-mail",
     contact_phone: "Número de Telefone",
     btn_contact_me: "Contate-me",
-    btn_download_cv: "Baixar CV"
+    btn_download_cv: "Baixar CV",
+    hero_working_on: `Atualmente trabalhando no <span class="highlight_blue">Portfólio</span>`,
+    funfact_users: "100+ Usuários",
+    funfact_code: "100+ Linhas de Código",
+    funfact_star: "100+ Estrelas"
   }
 };
