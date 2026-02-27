@@ -428,11 +428,8 @@ img {
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-}
-
-[class^="skill-title-"] {
   color: #0d1117;
-  border-bottom: none;
+  border-radius: 8px 8px 0 0;
 }
 
 .skill-title-programming {
