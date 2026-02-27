@@ -1,3 +1,10 @@
+/* ── Mobile (≤ 768px) ── */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+}
+
 /* Global Reset & Variables */
 :root {
   --bg: #0d1117;
