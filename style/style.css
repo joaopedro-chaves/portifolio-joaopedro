@@ -1,10 +1,3 @@
-/* ── Mobile (≤ 768px) ── */
-@media (max-width: 768px) {
-  .nav-list {
-    display: none;
-  }
-}
-
 /* Global Reset & Variables */
 :root {
   --bg: #0d1117;
@@ -595,6 +588,7 @@ img {
   font-weight: 800;
   color: var(--white);
   margin-bottom: 2.5rem;
+  line-height: 1.3;
   letter-spacing: -1px;
 }
 
@@ -798,7 +792,10 @@ img {
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
 
-  .hero {
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 72px;
     margin-top: 2rem;
   }
 
