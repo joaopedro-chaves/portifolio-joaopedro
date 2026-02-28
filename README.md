@@ -1,5 +1,7 @@
 # Portfolio Front-end
 
+<img width="875" height="545" alt="Screenshot_2026-02-28_15-11-00" src="https://github.com/user-attachments/assets/a2008358-515b-4564-8bd8-f8c668c2399b" />
+
 [Português](#português) | [English](#english)
 
 ---
