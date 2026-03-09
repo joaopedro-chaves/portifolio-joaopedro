@@ -625,7 +625,6 @@ img {
 
 .contact-info-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-bottom: 3rem;
 }
@@ -892,7 +891,6 @@ img {
   }
 
   .contact-info-grid {
-    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 
