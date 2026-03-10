@@ -23,6 +23,8 @@ This project was inspired by [Elias Portfolio](https://elias-portfolio-222e.verc
 - **Skills Board**: Organized skill categories in a 5-column grid (Desktop).
 - **Mobile Menu**: Animated hamburger menu with transitions.
 
+### [Live demo](https://portifolio-joaopedro.vercel.app/)
+
 ### How to Run Locally
 1. Clone this repository:
    ```bash
@@ -59,6 +61,8 @@ Este projeto foi inspirado em [Elias Portfolio](https://elias-portfolio-222e.ver
 - **Internacionalização (i18n)**: Troca fluida entre Inglês e Português.
 - **Quadro de Habilidades**: Categorias de habilidades organizadas em uma grade de 5 colunas (Desktop).
 - **Menu Mobile**: Menu hambúrguer animado com transições suaves.
+
+### [Ver o projeto](https://portifolio-joaopedro.vercel.app/)
 
 ### Como Rodar Localmente
 1. Clone este repositório:
