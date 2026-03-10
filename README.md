@@ -2,8 +2,6 @@
 
 [Português](#português) | [English](#english)
 
-![image](../media/img/project1.webp)
-
 ---
 
 ## English
